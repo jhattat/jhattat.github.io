@@ -544,16 +544,24 @@ header {
   margin: 50px 0 0;
 }
 .follow a {
-  color: #bbbbbb;
+  color: #ffffff;
   margin: 0 10px;
-  font-size: 18px;
-  font-size: 18px;
+  font-size: 40px;
   margin: 0 10px;
 }
 .follow a:hover {
   color: #000;
   text-decoration: none;
 }
+
+.zocial.viadeo:before {
+  color: #fff;
+}
+.zocial.viadeo:hover {
+  color: #000;
+}
+
+
 form {
   margin: 50px 0 0;
 }
