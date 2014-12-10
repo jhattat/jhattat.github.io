@@ -178,15 +178,14 @@ $(document).ready(function(){
     }
     $('#cfmailer').submit(function() {
         var a = $(this).find('input[name="name"]').val();
-        var b = $(this).find('input[name="email"]').val();
-        var c = $(this).find('textarea[name="msg"]').val();
+        var b = $(this).find('input[name="_replyto"]').val();
         if (a == "") {
             alert("Type your name please!");
             return false;
         }
         if (validateEmail(b)) {
         } else {
-            alert("Type your email correctly please!");
+            alert("Type your email correctly please! _" +b+"_" );
             return false;
         }
         if (c == "") {
@@ -199,8 +198,12 @@ $(document).ready(function(){
                 url: $(this).attr('action'),
                 data: $(this).serialize(),
                 success: function (data) {
-                    alert(data);
-                }
+                  $('#mailSent').alert();
+                  $("#mailSent").fadeTo(2000, 500).slideUp(500, function(){
+                    $("#mailSent").alert('close');
+                  });
+                },
+                dataType: "json"
             });
 
             return false;
