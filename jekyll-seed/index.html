@@ -1,44 +1,7 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-        <link rel="apple-touch-icon" type="image/x-icon" href="ink">
-        <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="Logo72x72.png">
-        <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="Logo114x114.png">
-        <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="Logo144x144.png">
-
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,cyrillic-ext,greek-ext,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="font/zocial.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/fresco.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-
-        <!--[if lt IE 9]>
-            <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
-        <![endif]-->
-        <!--[if !IE]>
-        <link rel="stylesheet" type="text/css" href="css/noie.css">
-        <![endif]-->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- ========== HEADER ========== -->
+---
+layout: default
+---
+<div class="wrapper">
         <header id="home">
             <div class="container text-center">
                 <!-- === MAINLOGO === -->
@@ -49,19 +12,11 @@
                 <!-- === TEXT ROTATOR === -->
                 <div class="dot-bg anim-delay animated fadeIn">
                     <div class="content-rotator">
+                      {% for alldata in site.data.vitrine.whys %}
                         <div class="inbox">
-                            Les gens au coeur des préocupations<br/>
-                            pour les meilleures solutions.
+                            {{ alldata.why }}
                         </div>
-                        <div class="inbox">
-                            Travailler différement : associer le ludique et l'efficace !
-                        </div>
-                        <div class="inbox">
-                            La R&amp;D, l'expérimentation pour un service à la pointe avec les méthodes et les techniques les plus abouties.
-                        </div>
-                        <div class="inbox">
-                          Au del&agrave; du buzz et du dogme : le pragmatisme.
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
 
@@ -76,11 +31,12 @@
                             <i class="icon-lightbulb icon-4x"></i>
                             <span>About Us</span>
                         </a>
+                      -->
                         <a class="menu-2" href="#portfolio">
                             <i class="icon-magic icon-4x"></i>
                             <span>Portfolio</span>
                         </a>
-                        <a class="menu-3" href="#services">
+                        <!--<a class="menu-3" href="#services">
                             <i class="icon-beaker icon-4x"></i>
                             <span>Services</span>
                         </a>
@@ -94,48 +50,10 @@
             </div>
         </header>
 
-        <!-- ========= STICKY ========== -->
-        <section class="sticky">
-            <section class="stickybox">
-                <div class="container">
-                    <div class="logo pull-left">
-                        <a href="#home"><img src="images/logo2.png" alt="logo" /></a>
-                    </div>
-                    <div id="nav" class="pull-right">
-                        <ul class="nav unstyled">
-                          <!--
-                            <li class="menu-1"><a href="#about-us"><i class="icon-lightbulb icon-3x"></i>About Us</a></li>
-                            <li class="menu-2"><a href="#portfolio"><i class="icon-magic icon-3x"></i>Portfolio</a></li>
-                            <li class="menu-3"><a href="#services"><i class="icon-beaker icon-3x"></i>Services</a></li>
-                          -->
-                            <li class="menu-4"><a href="#contact"><i class="icon-rocket icon-3x"></i>Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </section>
 
-        <!-- ========== MOBILE NAV ========== -->
-        <div id="mob-header">
-            <div class="moblogo pull-left">
-                <a href="#home"><img src="images/logo2.png" alt="logo" /></a>
-            </div>
-            <div id="navmobile" class="pull-right">
-                <a href="#mobmenu" class="menutrigger"><i class="icon-reorder"></i></a>
-                <ul class="unstyled mobmenu">
-                  <!--
-                    <li class="menu-1"><a href="#about-us"><i class="icon-lightbulb icon-1x"></i>About Us</a></li>
-                    <li class="menu-2"><a href="#portfolio"><i class="icon-magic icon-1x"></i>Portfolio</a></li>
-                    <li class="menu-3"><a href="#services"><i class="icon-beaker icon-1x"></i>Services</a></li>
-                  -->
-                    <li class="menu-4"><a href="#contact"><i class="icon-rocket icon-1x"></i>Contact</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- ========= PAGES ==========
+        <!-- ========= PAGES ========== -->
         <section id="pages" data-spy="scroll" data-target="#nav">
-
+<!--
                       <section id="about-us">
                 <div class="container">
                     <h1 class="text-center">We are creators</h1>
@@ -193,7 +111,7 @@
                         <div class="span6">Proin sit amet nulla et est aliquam placerat eu in massa. Donec sed nibh est, vel rhoncus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer vel libero vitae lectus ultrices fermentum eget a leo. Nam vestibulum nisl eu lectus tincidunt et gravida nisi mattis. Proin egestas venenatis justo, ut dapibus leo porta nec. Curabitur venenatis, diam non interdum ornare, lorem justo scelerisque</div>
                         <div class="span6">Proin sit amet nulla et est aliquam placerat eu in massa. Donec sed nibh est, vel rhoncus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer vel libero vitae lectus ultrices fermentum eget a leo. Nam vestibulum nisl eu lectus tincidunt et gravida nisi mattis. Proin egestas venenatis justo, ut dapibus leo porta nec. Curabitur venenatis, diam non interdum ornare, lorem justo scelerisque</div>
                     </div>
-                </div>78b79bff
+                </div>
             </section>
 
             <section id="testimonial" class="inverse parallax">
@@ -251,7 +169,7 @@
                     <div id="navi"></div>
                 </div>
             </section>
-
+-->
             <section id="portfolio">
                 <div class="container">
                     <h1 class="text-center">Our Beautiful Portfolio</h1>
@@ -267,6 +185,21 @@
                         </ul>
                     </section>
                     <div id="container">
+                      {% for post in site.posts %}
+                      <div class="mix branding">
+                        <div class="front"><img alt="" src="images/dummy.png" data-original="post.image" class="lp"></div>
+                        <div class="back">
+                          <div class="caption-inner">
+                            <h2>{{ post.title }}</a></h2>
+                            <a href="{{ post.url | prepend: site.baseurl }}" class="rm-link rm-link2">View Post</a>
+                          </div>
+                        </div>
+                      </div>
+                      {% endfor %}
+
+
+                      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                      <!--
                             <div class="mix branding">
                                 <div class="front"><img alt="" src="images/dummy.png" data-original="images/port1.jpg" class="lp"></div>
                                 <div class="back">
@@ -363,6 +296,7 @@
                                     </div>
                                 </div>
                             </div>
+                          -->
                     </div>
                     <div class="intro-text text-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec<br>
@@ -371,7 +305,7 @@
                     </div>
                 </div>
             </section>
-
+<!--
             <section class="step-boxes inverse parallax">
               <div class="container">
                     <h1 class="text-center">Our Services</h1>
@@ -464,37 +398,4 @@
             </div>
           </div>
         </section>
-
-        <!-- ========== FOOTER ========== -->
-        <footer>
-            <div class="container text-center">
-                <a href="index.html"><img alt="" src="images/dummy.png" data-original="images/flogo2.png" class="ll"></a>
-                <div class="copyright"> (c) 2015 “Agilead Consulting”<br>
-                    Tous droits réservés </div>
-            </div>
-        </footer>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/plugins.js"></script>
-        <script src="js/jquery.cycle2.min.js"></script>
-        <script src="js/jquery.cycle2.swipe.js"></script>
-        <script src="js/ios6fix.js"></script>
-        <script src="js/jquery.isotope.min.js"></script>
-        <script src="js/scrollTo.min.js"></script>
-        <script src="js/fresco.js"></script>
-        <script src="js/jquery.debouncedresize.js"></script>
-        <script src="js/jquery.throttledresize.js"></script>
-        <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
-</html>
+  </div>

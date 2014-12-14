@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  <head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <title></title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width">
+
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" type="image/x-icon" href="{{ "/Logo57x57.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="{{ "/Logo72x72.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="{{ "/Logo114x114.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="{{ "/Logo144x144.png" | prepend: site.baseurl }}">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,cyrillic-ext,greek-ext,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/font/zocial.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/fresco.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/bootstrap.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/responsive.css" | prepend: site.baseurl }}">
+
+  <!--[if lt IE 9]>
+    <script src="{{ js/vendor/html5-3.6-respond-1.1.0.min.js | preprend: site.baseurl }}"></script>
+    <![endif]-->
+    <!--[if !IE]>
+      <link rel="stylesheet" type="text/css" href="{{ "css/noie.css" | preprend: site.baseurl }}">
+      <![endif]-->
+</head>
+<body>
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
