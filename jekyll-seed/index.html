@@ -186,122 +186,26 @@ layout: default
                     </section>
                     <div id="container">
                       {% for post in site.posts %}
-                      <div class="mix branding">
-                        <div class="front"><img alt="" src="images/dummy.png" data-original="post.image" class="lp"></div>
-                        <div class="back">
+                      <div class="mix">
+                        <div class="front">
                           <div class="caption-inner">
-                            <h2>{{ post.title }}</a></h2>
-                            <a href="{{ post.url | prepend: site.baseurl }}" class="rm-link rm-link2">View Post</a>
+                            <h2>{{ post.title }}</h2>
                           </div>
                         </div>
-                      </div>
+                        <div class="back">
+                          <div class="caption-inner">
+                            <h2>{{ post.title }}</h2>
+                            <a href="{{ post.url | prepend: site.baseurl }}" class="rm-link rm-link2">Voir le post</a>
+                          </div>
+                        </div>
+                        </div>
                       {% endfor %}
-
-
-                      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-                      <!--
-                            <div class="mix branding">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port1.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port1.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>Rockstar</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix design">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port2.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port2.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>Newbie</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix branding motion">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port11.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port11.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>Cocain</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix branding motion">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port3.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port3.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>FreeLancer</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix websites">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port4.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port4.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>Destroyer</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix websites">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port12.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port12.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>Vicky</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix branding motion">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port5.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port5.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>Lanselot</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mix websites">
-                                <div class="front"><img alt="" src="images/dummy.png" data-original="images/port6.jpg" class="lp"></div>
-                                <div class="back">
-                                    <div class="caption-inner">
-                                        <a href="images/port6.jpg" class="fresco zoom" data-fresco-group="mix">
-                                            <i class="icon-search icon-3x"></i>
-                                        </a>
-                                        <h2>BabyBoy</h2>
-                                        <a href="#" class="rm-link rm-link2">View Project</a>
-                                    </div>
-                                </div>
-                            </div>
-                          -->
                     </div>
                     <div class="intro-text text-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec<br>
                         aliquam vehicula est, sed fermentum nulla interdum vel. Integer<br>
-                        ullamcorper cursus tellus.
+                        ullamcorper cursus tellus <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+
                     </div>
                 </div>
             </section>
