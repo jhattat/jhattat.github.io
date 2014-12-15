@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+  <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  <head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <title></title>
+  <meta name="description" content="Je vous propose dans ce billet, de détailler le Lego4scrum créé par Alexey Krivitsky. Il s'agit d'une simulation de 3 itérations d'un projet pour une durée d...">
+  <meta name="viewport" content="width=device-width">
+
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" type="image/x-icon" href="/Logo57x57.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="/Logo72x72.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="/Logo114x114.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="/Logo144x144.png">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,cyrillic-ext,greek-ext,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/font/zocial.css">
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="/css/fresco.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+
+  <!--[if lt IE 9]>
+    <script src=""></script>
+    <![endif]-->
+    <!--[if !IE]>
+      <link rel="stylesheet" type="text/css" href="css/noie.css">
+      <![endif]-->
+</head>
+<body>
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+
+  <body>
+
+    <!-- ========= STICKY ========== -->
+<section class="sticky">
+  <section class="stickybox">
+    <div class="container">
+      <div class="logo pull-left">
+        <a href="#home"><img src="images/logo2.png" alt="logo" /></a>
+      </div>
+      <div id="nav" class="pull-right">
+        <ul class="nav unstyled">
+          <!--
+          <li class="menu-1"><a href="#about-us"><i class="icon-lightbulb icon-3x"></i>About Us</a></li>
+          <li class="menu-3"><a href="#services"><i class="icon-beaker icon-3x"></i>Services</a></li>
+        -->
+        <li class="menu-2"><a href="#portfolio"><i class="icon-magic icon-3x"></i>Portfolio</a></li>
+        <li class="menu-4"><a href="#contact"><i class="icon-rocket icon-3x"></i>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</section>
+
+<!-- ========== MOBILE NAV ========== -->
+<div id="mob-header">
+  <div class="moblogo pull-left">
+    <a href="#home"><img src="images/logo2.png" alt="logo" /></a>
+  </div>
+  <div id="navmobile" class="pull-right">
+    <a href="#mobmenu" class="menutrigger"><i class="icon-reorder"></i></a>
+    <ul class="unstyled mobmenu">
+      <!--
+      <li class="menu-1"><a href="#about-us"><i class="icon-lightbulb icon-1x"></i>About Us</a></li>
+      <li class="menu-3"><a href="#services"><i class="icon-beaker icon-1x"></i>Services</a></li>
+    -->
+    <li class="menu-2"><a href="#portfolio"><i class="icon-magic icon-1x"></i>Portfolio</a></li>
+    <li class="menu-4"><a href="#contact"><i class="icon-rocket icon-1x"></i>Contact</a></li>
+  </ul>
+</div>
+</div>
+
+
+    <div class="page-content">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Lego4scrum, deux ans après...</h1>
+    <p class="post-meta">Apr 29, 2014 • {"login"=>"jhattat", "email"=>"jhattat@gmail.com", "display_name"=>"jérémie", "first_name"=>"", "last_name"=>""} • {"_edit_last"=>"39759070", "_publicize_pending"=>"1"}</p>
+  </header>
+
+  <article class="post-content">
+    <p>Je vous propose dans ce billet, de détailler le <a title="Atelier Lego 4 Scrum" href="http://www.lego4scrum.com/" target="_blank">Lego4scrum </a>créé par <a title="Créateur Lego4scrum" href="www.krivitsky.com" target="_blank">Alexey Krivitsky</a>. Il s'agit d'une simulation de 3 itérations d'un projet pour une durée de 1h30 à 2h. Le développement logiciel est matérialisé par la construction avec des légos qui le rend extrêmement ludique ! Cela rend le jeu accessible à tous les publics (DSI, CP, Dev...).</p>
+<p>L'idée n'est pas de décrire l'atelier, les supports remplissent parfaitement ce rôle. Je vous propose un retour sur plus de 2 ans de pratique.</p>
+<p><strong>Attention, ne lisez pas ce billet si vous n'avez jamais fait l'exercice ;)</strong></p>
+<p>Quand utiliser cet atelier ?</p>
+<ul>
+<li>En découverte : l'idée est de supprimer tous les termes agiles de l'atelier, cela provoque le vécu, et vous pouvez y faire référence lors d'une formation par exemple, cela crée le "Tilt". Cet atelier permet aussi la prise de conscience !</li>
+<li>En fin d'apprentissage : inversement, vous pouvez laisser plus de marge de manœuvre aux participants, pour qu'ils réappliquent les compétences acquises.</li>
+<li>En feedback sur une équipe : en coaching, même si l'Equipe est déjà coutumière de tous les artéfacts, cela permet de prendre du recule par rapport à leur pratique.</li>
+</ul>
+<p>L'atelier se déroule comme suit</p>
+<ul>
+<li>Une phase de construction de la liste "des choses à faire"</li>
+<li>Une phase d'estimation</li>
+<li>3 sprint de 6 minutes (planification, réalisation, revue), suivis d'une revue des éléments réalisés.</li>
+</ul>
+<p>le matériel suivant sera nécessaire :</p>
+<ul>
+<li>Post-it et petits post-it.</li>
+<li>1 feuille de paperboard pour le backlog</li>
+<li>1 feuille de paperboard pour l'estimation en couloir</li>
+<li>1 feuille de paperboard pour le reporting</li>
+<li>Des feuilles de paperboard pour les participants et pour la "prod".</li>
+</ul>
+<p>Pour la phase préparatoire, je m'arme de post-it sur lesquels j'adjoins un petit post-it. Vous comprendrez pour la suite. J'y dessine 2 cases, une pour la valeur métier, l'autre pour l'effort.</p>
+<h2>Le lancement</h2>
+<p>Je fais en sorte de "sortir du cadre" habituel, pour cela, j'utilise deux slides d'introduction.</p>
+<ul>
+<li>Le premier présente un titre très "pompeux" du style "Réflexion autour de nos méthodes et outils dans le cadre...." Le genre de titre, qui, présenté à 13h30, digestion oblige, vous appelle au sommeil ;)</li>
+<li>Le deuxième slide est un gros panneau STOP ! "Nous allons prendre un peu de recul, avec un atelier ludique"</li>
+</ul>
+<p>Pas besoin d'aborder le coté réflexion, cela vient naturellement avec le jeu.</p>
+<p>J'attaque le speech, et j'insiste fortement sur :<br />
+"Un projet commun, une Equipe constituée de plusieurs groupes"<br />
+"Je suis le Maire, je décide, posez moi les questions"</p>
+<h2>La phase préparatoire</h2>
+<p>Je <del>retire</del> j'essaie de retirer tous termes agiles, ainsi, on évite les aprioris sur le sujet.</p>
+<p>J'explique ma vision du projet Vision globale, en mettant un petit point sur <a title="Démarrez avec le pourquoi" href="https://www.startwithwhy.com/default.aspx" target="_blank">l'importance du pourquoi.</a>.. Ainsi, chacun des participants peut-être force de proposition dans l'objectif. On co-construit donc les éléments. C'est un mini workshop d'écriture de user story. Attention à ne pas trop laisser de temps sur cette phase, la gestion d'un nombre important de propositions est un frein pour la suite de l'atelier.</p>
+<p>Pour la mise en commun, je fais une sorte de story mapping simplifier (des références <a title="Story Mapping, premier post" href="http://www.agileproductdesign.com/presentations/user_story_mapping/" target="_blank">ici</a> et <a title="Story mapping en Français" href="http://www.qualitystreet.fr/2009/08/11/user-story-map-un-gros-plus-pour-votre-backlog/" target="_blank">là</a>). Ce faisant, j'introduis l'utilité d'une telle pratique sur un projet, pour un démarrage ou une reprise. Le but est d'avoir une ville cohérente, avec des priorités claires. J'explique l'importance du juste détail pour permettre la visualisation globale et les ajustements.</p>
+<p>Par exemple : Construire une ville en oubliant l'infrastructure, créer le lotissement avant d'y mettre les maisons...</p>
+<p>L'illustration de la co-construcion est sans équivoque : il y a toujours des items auxquels je n'aurais pas pensé. On connaît l'adage "Il y a plus de choses dans la tête de 20 personnes que dans une seule", mais imaginez concrètement ce que cela peut donner sur vos projets.</p>
+<p>J'attribue des valeurs, de 1000 à 50 en fonction de l'importance.</p>
+<p>Je fais faire la somme des valeurs d'estimation par les participants, je note cela sur le paperboard du reporting. <strong>Toutes les tâches qui peuvent être déléguées sont bonnes à prendre, cela fluidifie votre intervention.</strong></p>
+<h2>La phase d'estimation</h2>
+<p>J'introduis la notion d'estimation relative, en expliquant les avantages. Je fais une démonstration avec un jeu de planning poker, et explique ensuite comment optimiser le process avec les "couloirs" (bien présenté dans le support). Retrouvez sur ce billet <a title="pratiques d'estimation" href="http://johannesbrodwall.com/2009/11/05/the-malmo-experiment-estimation-techniques-shootout/" target="_blank">des pratiques d'estimation</a> pour en reprendre le sens.</p>
+<p>Je prends une ou deux personnes de l'assemblée pour faire l'estimation relative de tous les éléments. Pour faire cela, nous détachons les petits post-it des grands, pour garder le story mapping priorisé en place.</p>
+<p>A la fin, pour les éléments que les participants ont du mal à estimer, je donne de brèves indications "deux maisons de large..." et clos le débat en positionnant les éléments.<br />
+Cela porte parfois à Caricature et c'est l'ambiguïté entre l'animateur du jeu et le rôle de product owner...<br />
+Mais sur le ton de l'humour cela passe généralement bien.</p>
+<p>Une fois de plus, je fais appel aux participants pour l'addition des points d'effort, je note cela sur le board de reporting.</p>
+<p>Dans la plupart des cas, presque aucune question n'est posée sur le comment développer les choses. En d'autres termes, les gens se lancent dans l'estimation sans avoir les infos ;)</p>
+<p>C'est à ce moment, que j'aime prononcé la phrase suivante : <strong>"Il est temps de passer aux choses sérieuses" et je sors les boîtes de Légos !</strong> A ce moment du jeu les participants sont engagés, même s'ils sont surpris par les Légos, vous évitez les réactions épidermiques.</p>
+<h2>Les sprints</h2>
+<p>Pour la planification, il faut dédramatiser, les pousser à se jeter à l'eau. Pour faciliter je demande un responsable d'équipe et le pousse à me donner leur engagement... "Allez, 30 secondes pour me donner un chiffre". [ça vous rappelle quelque chose ? des soirées de propositions commerciale ou il faut jeter les dés ?]</p>
+<p>Je choisis les éléments à réaliser et demande si les équipes veulent bien s'engager.</p>
+<p>On théâtralise un peu le choix cornélien des priorités par le product owner et la réalité en terme de ROI/Coûts/Risque/apprentissage.</p>
+<p>Au top ils se lancent tous comme des fous, retour à l'enfance, l'ambiance est à la rigolade et les participants apprivoisent les Légos.<br />
+Je pars sur 6 minutes au lieu de 7, ça mets plus la pression, et je la mets continuellement "plus que x minutes".</p>
+<blockquote><p>10, 9, 8, 7, 6, 5, 4, 3, 2, 1.... Mais où est ma ville !!!</p></blockquote>
+<p>Il est temps d'effectuer la revue, et dans 9 cas sur 10 la prod a été oubliée ! L'espace de production est indiqué lors de la distribution des espaces et des Légos.</p>
+<p>Je fais la revue des éléments produits. Je prends un air caricatural en en forçant <del>un peu</del> le trait pour ajouter du fun à la scène.</p>
+<p>C'est généralement la déconfiture !<br />
+Il ont tous essayé quelque chose qui n'est absolument pas ce que j'avais en tête ( et même si c'était le cas je changerai ce que j'ai en tête :)</p>
+<p>Un réflexe courant :</p>
+<blockquote><p>Participant : Mais tu ne nous a pas dit ce que tu voulais !<br />
+Animateur : Mais tu ne m'as pas posé la question !</p></blockquote>
+<p>Les éléments acceptés sont généralement proches de 0.<br />
+Je propose 2 minutes de rétrospective LIBRE, en leur demandant de choisir une action sur laquelle s'animer.</p>
+<h3>Deuxième sprint</h3>
+<p>Dans la plupart des cas, le PO est pris d'assaut ! Préparez-vous !<br />
+Les choses s'arrangent, certains patterns apparaissent...</p>
+<p>A l'inverse du premier sprint, on passe en déploiement continu naturellement et cela dans plus de 80% des cas... Mais sans forcément l'aval du PO !</p>
+<p>La revue est plus clémente, il reste des éléments à revoir.<br />
+La confiance commence à se ressentir, on voit par exemple des éléments faits qui n'étaient pas demandés.<br />
+C'est à dire qui faisait parti des éléments du backlog, mais qui n'était pas dans les priorités du PO.<br />
+Le score décolle, je reporte les éléments effectués (point d'effort en burndown et valeur en burnup, sur un même schéma avec deux couleurs)</p>
+<p>Pour la rétrospective, je prends les choses en main (j'ai observé que les gens n'ont pas l'habitude de cet exercice et on donc du mal à sortir quelque chose, un ouvrage à creuser : getting feedback ?) :</p>
+<p>Voici des exemples de questions :</p>
+<ul>
+<li>Avez-vous respecté les actions sur lesquelles vous souhaitiez vous animer ?</li>
+<li>Où avez-vous perdu du temps ?</li>
+<li>Quelles étaient les difficultés ?</li>
+</ul>
+<p>Voici quelques exemples d'actions concrètes</p>
+<ul>
+<li>Organiser les Légos par couleur</li>
+<li>Validation au fils de l'eau</li>
+<li>Les gens se mettent en commun pour mutualiser l'ensemble des Légos</li>
+<li>Le travail "a faire ensuite" est ajouté par le PO (pour éviter que certaines personnes ne tournent en rond).</li>
+</ul>
+<h3>Troisième sprint</h3>
+<p>Les équipes trouvent leur vitesse de croisière, les actions de rétrospective fonctionnent,<br />
+le score explose au grand bonheur de chacun mais surtout à leur grande surprise.</p>
+<p>Je reporte les éléments sur le board de reporting, et explique comment la capacité de<br />
+réalisation peut nous servir pour effectuer des projections (date de fin,<br />
+importance de travailler sur ce qui a de l'importance, négociation des points de fonction...</p>
+<h2>Le débrief</h2>
+<p>C'est la partie à ne pas négliger, peaufiner vos questions au fur et à mesure que vous pratiquez.</p>
+<p>Voici quelques unes des questions marquantes :</p>
+<ul>
+<li>Que ce serait-il passé si nous avions utilisé 18 minutes au lieu de 3x6 minutes ? [Marquez un blanc et observez la tête de chacun des participants]</li>
+<li>Quels sont les comportements qu'ils ont observés ?</li>
+<li>Que pensent-ils de le rétrospective ?</li>
+<li>Comment établir les critères d'acceptance avant de développer ?</li>
+<li>Qu'apporte le management visuel ?</li>
+</ul>
+<h2>L'anecdote</h2>
+<p>Le contexte : une horde de chef de projet manageant principalement des centres de service.<br />
+Les échos/réflexions étaient assez négatifs, les phrases comme "il comprennent jamais rien", "ils sont toujours à coté de la plaque" j'en passe et des meilleures (en d'autre termes, qui ne passent pas sur un blog ;).</p>
+<p>L'efficacité de l'atelier faisant rage, nombreux sont ceux à tombé dans le panneau !</p>
+<p>A ce moment précis, je vois le visage d'un des chefs de projet se transformer. Il y a des moments où, l'on reconnais le "tilt" de la compréhension par l'illumination d'un visage. A ce moment précis, son visage est devenu sombre, ce qui m'a scotché...</p>
+<p>Je l'ai vu comprendre que le problème n'était pas les équipe de sous-traitance mais bien leur mode de fonctionnement !</p>
+<p>Un moment rare, qui me restera gravé !</p>
+<p>N'hésitez pas à communiquer vos retours sur info@lego4scrum.com et dans les commentaires de ce billet !</p>
+<p>&nbsp;</p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container text-center">
+      <a href="/index.html">
+        <img alt="" src="" data-original="" class="ll">
+      </a>
+      <div class="copyright"> (c) 2015 “Agilead Consulting”<br>
+        Tous droits réservés </div>
+      </div>
+    </footer>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+    <script src="/js/vendor/bootstrap.min.js"></script>
+
+    <script src="/js/plugins.js"></script>
+    <script src="/js/jquery.cycle2.min.js"></script>
+    <script src="/js/jquery.cycle2.swipe.js"></script>
+    <script src="/js/ios6fix.js"></script>
+    <script src="/js/jquery.isotope.min.js"></script>
+    <script src="/js/scrollTo.min.js"></script>
+    <script src="/js/fresco.js"></script>
+    <script src="/js/jquery.debouncedresize.js"></script>
+    <script src="/js/jquery.throttledresize.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    </body>
+  </html>

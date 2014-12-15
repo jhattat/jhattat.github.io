@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agilead Website</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://agilead.fr/</link>
+    <atom:link href="http://agilead.fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Dec 2014 09:18:44 +0100</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2014 09:18:44 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Dec 2014 15:08:47 +0100</pubDate>
+        <link>http://agilead.fr/scratch/tes/jekyll/update/2014/12/14/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://agilead.fr/scratch/tes/jekyll/update/2014/12/14/welcome-to-jekyll.html</guid>
+        
+        
+        <category>scratch</category>
+        
+        <category>tes</category>
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 13 Dec 2014 17:31:19 +0100</pubDate>
+        <link>http://agilead.fr/jekyll/update/2014/12/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://agilead.fr/jekyll/update/2014/12/13/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Premier PO DOJO, pour Nord Agile</title>
+        <description>&lt;p&gt;Nous avons organisé avec &lt;a title=&quot;site Nord Agile&quot; href=&quot;http://www.nord-agile.org/&quot;&gt;Nord Agile&lt;/a&gt; le premier PO Dojo, une quinzaine de personnes ce sont essayées à l&#39;expérience, je vous propose un petit résumé de la session.&lt;/p&gt;
+&lt;h1&gt;Mais un PO Dojo c&#39;est quoi ?&lt;/h1&gt;
+&lt;p&gt;D&#39;inspiration lointaine avec le &lt;a title=&quot;Definition Coding &quot; href=&quot;http://codingdojo.org/&quot;&gt;coding dojo[EN]&lt;/a&gt; [&lt;a title=&quot;activités dojo&quot; href=&quot;http://wiki.agile-france.org/cgi-bin/wiki.pl?DojoDeveloppement&quot;&gt;voir les dernières activités&lt;/a&gt;], le PO Dojo à pour vocation de pratiquer les outils du quotidien du &lt;em&gt;Product Owner&lt;/em&gt;. On peut y aborder le cadrage, le story mapping, l&#39;écriture de user story, cette liste n&#39;est biensûr pas exhaustive !&lt;/p&gt;
+&lt;p&gt;La force du PO Dojo est de réunir des PO d&#39;horizons différents, c&#39;est ce qui crée la qualité et la richesse des échanges.&lt;/p&gt;
+&lt;p&gt;Un &lt;a title=&quot;Google group PODOJO&quot; href=&quot;https://groups.google.com/forum/#!forum/podojo&quot;&gt;google group existe&lt;/a&gt;, vous y retrouverez les différents retour d&#39;expériences et pourrez également au contenu qui sont partagés à cette communauté. La soirée nord agile s&#39;est concentrée sur l&#39;écriture de &lt;a title=&quot;Pratique : User Story&quot; href=&quot;http://referentiel.institut-agile.fr/stories.html&quot;&gt;User Story ou histoire utilisateur&lt;/a&gt; en français.&lt;/p&gt;
+&lt;p&gt;Pour les non initiés, une histoire utilisateur est une description courte d&#39;une fonction d&#39;un point de vue de l&#39;utilisateur.&lt;/p&gt;
+&lt;h1&gt;PO Dojo User Stories&lt;/h1&gt;
+&lt;p&gt;J&#39;ai suivi ce format :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brise glace, avec le jeu des noms, que m&#39;a fait découvrir &lt;a class=&quot;ProfileHeaderCard-screennameLink u-linkComplex js-nav&quot; href=&quot;https://twitter.com/ojuncu&quot;&gt;@&lt;span class=&quot;u-linkComplex-target&quot;&gt;ojuncu&lt;/span&gt;&lt;/a&gt;, merci !&lt;/li&gt;
+&lt;li&gt;Constitution des groupes en binôme ou trinôme, mais pas plus.&lt;/li&gt;
+&lt;li&gt;Présentation (2 minutes) et sujet.&lt;/li&gt;
+&lt;li&gt;Première itération (15 minutes) : De l&#39;idée à la user story&lt;/li&gt;
+&lt;li&gt;Deuxième itération (10 minutes) : Les critères d&#39;acceptance&lt;/li&gt;
+&lt;li&gt;Troisième Itération (10 minutes) : Les tests d&#39;acceptance&lt;/li&gt;
+&lt;li&gt;Cercle de clôture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le timing est différent entre la première session et les autres pour prendre en compte le défrichage du sujet.&lt;/p&gt;
+&lt;p&gt;Chacune des itérations est clôturée par un feedback de chacun des groupes, la production de leur exercice et les techniques utilisées.  Les retours d&#39;expériences de PODojo indique d&#39;utiliser un temps restreint par groupe, dans notre contexte, cela n&#39;a pas été nécessaire. J&#39;ai ajouté un échange libre pour le groupe entier sur les surprises ou découvertes de l&#39;itération. &lt;/p&gt;
+&lt;h2&gt;De l&#39;idée à la User Story&lt;/h2&gt;
+&lt;p&gt;&quot;Le marketing descend de son bureau : j&#39;ai une idée de tueur : j&#39;aimerai envoyer un mail en différé pour faire croire à mon patron que je bosse alors que je suis parti boire l&#39;apéro avec des amis&quot;. A partir de ce sujet, les participants doivent en déduire les Users Stories. Je précise qu&#39;en le faisant, ils peuvent prendre &lt;strong&gt;un peu de recul et analyser leur façon de faire&lt;/strong&gt;. L&#39;idée est d&#39;orienter le débat sur les pratiques.&lt;/p&gt;
+&lt;p&gt;Les participants s&#39;affairent, et voici les échos de chacun des groupes de cette première itération :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Certains utilisent le format En tant que &amp;lt;acteur&amp;gt;, je peux &amp;lt;action&amp;gt; afin de &amp;lt;objectif&amp;gt;&lt;/li&gt;
+&lt;li&gt;Certains reposent la question du besoin derrière cette fonction pour produire quelques alternatives à l&#39;aide des &quot;&lt;a title=&quot;5P - 5pourquoi&quot; href=&quot;http://www.qualiblog.fr/outils-et-methodes/la-methode-des-5-pourquoi-pour-eradiquer-vos-problemes/&quot;&gt;5 pourquois&lt;/a&gt;&quot;. Je me dis que la &lt;a title=&quot;Impact Mapping Nord Agile&quot; href=&quot;http://jhattat.wordpress.com/2014/05/21/impact-mapping-nordagile/&quot;&gt;session d&#39;impact mapping&lt;/a&gt; y est certainement pour quelque chose !&lt;/li&gt;
+&lt;li&gt;Certains utilisent des techniques de brainstorming simple, ou en utilisant les mind maps.&lt;/li&gt;
+&lt;li&gt;D&#39;autre des cartes Acteurs/Rôles&lt;/li&gt;
+&lt;li&gt;D&#39;autres ont utilisé des cartes de thématiques.&lt;/li&gt;
+&lt;li&gt;D&#39;autre ont déjà sauté un cap en creusant la user story avec des tests d&#39;acceptance.&lt;/li&gt;
+&lt;li&gt;D&#39;autres font valoir les incréments fonctionnels, en ayant les perspectives techniques de réalisation en tête.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Concernant les US, elles reflètent la notion de template de mail, d&#39;historique, d&#39;annulation, de validation de l&#39;envoie ou encore un accusé de réception...&lt;/p&gt;
+&lt;p&gt;Voici les retours du deuxième cercle de feedback :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Les participants sont stupéfaits par l&#39;imagination et le nombre idées qui ont émergées.&lt;/li&gt;
+&lt;li&gt;Certains saluent l&#39;idée de prendre un pas de recul par rapport à la fonction demandée pour en recreuser le fond.&lt;/li&gt;
+&lt;li&gt;Certains repose quelques questions de compréhension de pratiques exposées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Les CRITERES d&#39;acceptance&lt;/h2&gt;
+&lt;p&gt;Les participants doivent prendre une US et en écrire les critères d&#39;acceptance, je les définis comme suit : &quot;D&#39;un point de vu client, comment peut-on accepter une US ?&quot;&lt;/p&gt;
+&lt;p&gt;Voici la production de chacun des groupes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Certains ont posé les points de vérification pour identifier les faiblesses potentielles.&lt;/li&gt;
+&lt;li&gt;D&#39;autres ont cité des scénarios d&#39;utilisation.&lt;/li&gt;
+&lt;li&gt;D&#39;autre on fournit des scripts de vérification&lt;/li&gt;
+&lt;li&gt;Certains ont utilisé le &quot;&lt;a title=&quot;Description Saot pour le BDD&quot; href=&quot;http://blog.soat.fr/2011/06/introduction-au-behavior-driven-development/&quot;&gt;Behaviour Driven Development&lt;/a&gt;&quot; avec le Given When Then&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voici la deuxième boucle de feedback&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On observe des niveaux de granularité différents entre les groupes : d&#39;une description synthétique de quelques mots à des scénarios très détaillés.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;On identifie un écart de perception entre critères d&#39;acceptance et tests&lt;/li&gt;
+&lt;li&gt;Une proposition d&#39;un participant : &quot;Ce sont les éléments menant au succès pour une US&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Les TESTS d&#39;acceptance&lt;/h2&gt;
+&lt;p&gt;Les participants doivent dans cette itération écrire les tests d&#39;acceptance de leur US.&lt;/p&gt;
+&lt;p&gt;Voici les retours des groupes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Certains utilisent des arbres conditionnels pour les différents cas de figure&lt;/li&gt;
+&lt;li&gt;D&#39;autres utilisent le &lt;a title=&quot;AAA&quot; href=&quot;http://c2.com/cgi/wiki?ArrangeActAssert&quot;&gt;AAA&lt;/a&gt; (arrange/act/assert)&lt;/li&gt;
+&lt;li&gt;L&#39;écriture des tests à induit l&#39;écriture d&#39;autres user stories.&lt;/li&gt;
+&lt;li&gt;Les tests mettent en avant les différentes responsabilités fonctionnelles, pour un cas il est nécessaire d&#39;avoir des fonctions en prérequis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Deuxième boucle de feedback&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On se rend compte qu&#39;un critère d&#39;acceptance peut être dérivé en de nombreux tests.&lt;/li&gt;
+&lt;li&gt;La notion de &quot;test après est évoquée&quot;, j&#39;en profite pour parler très brièvement du &quot;test avant&quot;, en évitant de changer ma posture dans cet atelier.&lt;/li&gt;
+&lt;li&gt;&quot;Les tests sont l&#39;implémentation de critères d&#39;acceptance&quot;&lt;/li&gt;
+&lt;li&gt;Un sentiment de facilité par rapport à l&#39;élaboration de critères.&lt;/li&gt;
+&lt;li&gt;Quelques citations :
+&lt;ul&gt;
+&lt;li&gt;&quot;Les tests d&#39;acceptance sont l&#39;implémentation des critères d&#39;acceptance&quot;&lt;/li&gt;
+&lt;li&gt;&quot;Les critères d&#39;acceptance sont le QUOI et les tests le COMMENT&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sur ce dernier point, un débat s&#39;est improvisé rapidement : &quot;Qui chez vous écrit les tests d&#39;acceptance ?&quot;&lt;/p&gt;
+&lt;h1&gt;La clôture&lt;/h1&gt;
+&lt;p&gt;Pour terminer les échanges, nous avons formé un cercle, et fait passer un bâton de parole (merci &lt;a class=&quot;ProfileHeaderCard-screennameLink u-linkComplex js-nav&quot; href=&quot;https://twitter.com/nelson_dufosse&quot;&gt;@&lt;span class=&quot;u-linkComplex-target&quot;&gt;nelson_dufosse&lt;/span&gt;&lt;/a&gt; ;). Voici la question posée : &quot;Qu&#39;avez-vous apprécié ? Qu&#39;avez-vous appris ce soir? Y-a-t&#39;il des éléments que vous allez reprendre ou appliquer prochainement ?&quot;&lt;/p&gt;
+&lt;p&gt;Et voici les réponses :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;L&#39;exercice m&#39;a permis de découvrir concrètement les user stories, c&#39;est concret, facile et très accessible.&quot;&lt;/li&gt;
+&lt;li&gt;&quot;J&#39;ai découvert le BDD.&quot;&lt;/li&gt;
+&lt;li&gt;&quot;J&#39;ai apprécié avoir des retours concrets et les questions de fond sur le sujet&quot;&lt;/li&gt;
+&lt;li&gt;&quot;J&#39;ai vu des techniques concrètes, que je réutiliserai&quot;&lt;/li&gt;
+&lt;li&gt;&quot;J&#39;ai mis en pratique les user stories, je me rend compte que c&#39;est un peu comme cela que je fonctionne au quotidien.&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;La vision du facilitateur&lt;/h1&gt;
+&lt;p&gt;J&#39;aime ce genre d&#39;atelier car c&#39;est toujours très riche de retours, et je suis ravi d&#39;avoir vu toutes ces techniques agiles exposées : les participants créent et partage la connaissance. Le rôle du facilitateur est d&#39;assurer la conduite de l&#39;atelier, de ces différentes étapes.&lt;/p&gt;
+&lt;p&gt;Cet atelier à un très bon ROI du point de vue préparation !  Je pense même qu&#39;en reproduisant l&#39;exercice, le rôle de facilitateur peut s&#39;effacer pour atteindre l&#39;auto-organisation comme pour les coding dojos. Il reste à introduire une récurrence pour cela... affaire à suivre.&lt;/p&gt;
+&lt;p&gt;D&#39;un point de vue contenu, je note les définitions propre à chacun quand l&#39;on parle du test, et la frontière entre critère d&#39;acceptance et tests la frontière peut être mince... Il s&#39;agit pour ma part d&#39;un simple problème de langage, au delà des termes il faut repartager le pourquoi des tests et se mettre d&#39;accord avec les différents intervenants du projet.&lt;/p&gt;
+&lt;p&gt;Ne soyons pas dogmatique et faisons en sorte d&#39;assurer le flux des US dans les projets, en ayant levé les ambiguïtés au plus tôt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Je remercie énormément la &lt;a title=&quot;PODOJO google group&quot; href=&quot;https://groups.google.com/forum/#!forum/podojo&quot;&gt;communauté du PODOJO&lt;/a&gt; pour leur retours d&#39;expériences, et les éléments de synthèse qui ont grandement facilité la prise en main de l&#39;exercice : M.E.R.C.I !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Jun 2014 14:46:49 +0200</pubDate>
+        <link>http://agilead.fr/2014/06/28/premier-po-dojo-pour-nord-agile.html</link>
+        <guid isPermaLink="true">http://agilead.fr/2014/06/28/premier-po-dojo-pour-nord-agile.html</guid>
+        
+        <category>PODOJO NORDAGILE ATELIER FACILITATION TECHNIQUES AGILE</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Le jeu de l&#39;amélioration : du concret !</title>
+        <description>&lt;p&gt;Le jeu de l&#39;amélioration ou  &lt;em&gt;perfection game&lt;/em&gt; permet de donner du feedback de manière positive. Je l&#39;ai utilisé avec succès à de nombreuses reprises : pour une rétro de sprint, pour une réunion, pour un document de spec ou de lancement pour n&#39;en citer que quelques-uns ! Même pour du feedback &quot;à chaud&quot;... mais c&#39;est un autre sujet.&lt;/p&gt;
+&lt;p&gt;Ce billet met le focus sur un exemple très TRES parlant, prenant pour source &lt;a title=&quot;lego4scrum, 2ans après&quot; href=&quot;http://jhattat.wordpress.com/2014/04/29/lego4scrum-deux-ans-apres/&quot;&gt;un billet de ce blog&lt;/a&gt;. Il vous donnera les clefs pour prendre en main le jeu de l&#39;amélioration !&lt;/p&gt;
+&lt;h1&gt;Le perfection game ?&lt;/h1&gt;
+&lt;p&gt;Voici très succinctement le déroulement :  &quot;je te donne X/10 car j&#39;ai apprécié cela et cela... Pour avoir 10, il faudrait faire X ou Y&quot;. Vous pouvez utiliser le visuel suivant, il est la traduction de &lt;a title=&quot;Perfection Game Original&quot; href=&quot;http://www.hanoulle.be/2010/07/perfection-game/&quot;&gt;l&#39;original de Yves Hanoulle&lt;/a&gt; complété par &lt;a title=&quot;Lien Octo&quot; href=&quot;http://partageons-ce-qui-nous-departage.com/perfection-game&quot;&gt;des exemples cités ici&lt;/a&gt; :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jhattat.files.wordpress.com/2014/06/jeuamelioration-0011.jpg&quot;&gt;&lt;img id=&quot;i-61&quot; class=&quot;size-full wp-image aligncenter&quot; src=&quot;assets/jeuamelioration-0011.jpg?w=650&quot; alt=&quot;Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;D&#39;un apriori simple, il crée un contexte constructif pour les participants, cela évite le phénomène de &quot;bureau des plaintes&quot;, que l&#39;on peu rencontrer avec le &lt;a title=&quot;innovation games speed boat&quot; href=&quot;http://www.innovationgames.com/speed-boat/&quot;&gt;speed-boat&lt;/a&gt; par exemple. Notez que ce n&#39;est pas un défaut, cela peut être important dans certaines situations (non dits, fatigue générale, blocage hiérarchique...), le coté ludique permet de &quot;vider son sac&quot; et passer à autre chose rapidement.&lt;/p&gt;
+&lt;h1&gt;L&#39;exemple&lt;/h1&gt;
+&lt;p&gt;J&#39;ai eu l&#39;occasion d&#39;échanger sur le sujet avec &lt;a title=&quot;Blog Guillaume Duquesnay&quot; href=&quot;http://agileapreslecole.fr/&quot;&gt;Guillaume Duquesnay, dont je vous conseille le blog&lt;/a&gt;. Il m&#39;a gentiment donné le feedback, sur la mise en oeuvre du Lego4Scrum. A sa lecture, je me suis dis &quot;c&#39;est l&#39;exemple parfait du perfection game !&quot; : positif et très motivant, qui montre également l&#39;évolution de cette pratique, c&#39;est pourquoi je vous le partage :&lt;/p&gt;
+&lt;h3&gt;&lt;em&gt;J&#39;ai apprécié&lt;/em&gt;&lt;/h3&gt;
+&lt;div&gt;&lt;em&gt;- découverte nouveau jeu&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- retour totalement concret, basé sur retour d&#39;expérience, 0 théorie, 0 bullshit&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- conseils pratico-pratiques pour les petits moments délicats (debrief, etc), ça met en confiance pour animer l&#39;atelier = j&#39;ai envie de l&#39;animer, je me sens totalement de le faire&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- style bien équilibré, convivial mais pas familier, ça reste pro&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- l&#39;exemple des managers à la fin ancre de manière narrative un des intérêts de l&#39;exercice. Moi aussi j&#39;ai fait &quot;tilt !&quot; sur l&#39;intérêt de l&#39;exercice&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- l&#39;adage &quot;20 personnes ont plus d&#39;idées...&quot;, etc&lt;/em&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;em&gt;Pour aller plus loin&lt;/em&gt;&lt;/h3&gt;
+&lt;div&gt;&lt;em&gt;Plus de contexte, plus autoportant&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- lors de l&#39;intro, donner des exemples des cas d&#39;application que tu as expérimenté au cours des 2 ans. Ainsi je comprendrais mieux le cadre de ton retour d&#39;expérience&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- ajouter un résumé de l&#39;exercice en 2-3 phrases / 10 lignes (but, principe, etc). je ne connaissais pas l&#39;exercice, et je n&#39;irai pas lire les slides de référence (pas envie / pas prévu d&#39;en prendre le temps / c&#39;est toi que je veux lire, pas l&#39;autre gars). Sans cela, j&#39;ai eu du mal à raccrocher les morceaux, ça m&#39;a demandé pas mal de cerveau disponible (je me suis dit, c&#39;est comme un XP game). &lt;/em&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;em&gt;Plus de lisibilité&lt;/em&gt;&lt;/h3&gt;
+&lt;div&gt;&lt;em&gt;Je pense que ton article est un article pratique et sera parcouru ou reparcouru en diagonale, donc &lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- ajouter des photos des éléments que tu cites, pour faciliter le parcours visuel, aérer le texte, et ancrer l&#39;image de l&#39;exercice. Par exemple les post-its, les legos, etc. Même un dessin à la rache ça le fait toujours&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;em&gt;- ajouter des sous-titres ou des bullets point pour distinguer la nature des éléments que tu donnes. Exemple : liste des besoins, liste des astuces sur un sprint, liste des pièges, etc&lt;/em&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;em&gt;Encore plus de concret&lt;/em&gt;&lt;/h3&gt;
+&lt;div&gt;&lt;em&gt;- encore plus de narration comme avec les managers, même en quelques mots. Encore plus de citations comme &quot;20 personnes ont plus d&#39;idées...&quot;, etc&lt;/em&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;em&gt;Et pour finir&lt;/em&gt;&lt;/h3&gt;
+&lt;div&gt;&lt;em&gt;- tu précises que le planning poker c&#39;est pas bien ! (cette touche est tout à fait personnelle :D)&quot;&lt;/em&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;h1&gt;Suite à ce retour, &lt;strong&gt;j&#39;ai changé ma façon de faire !&lt;/strong&gt;&lt;/h1&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Maintenant, je pose les questions suivantes :&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#222222;font-family:&#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;font-size:14px;font-style:inherit;font-weight:inherit;line-height:1.7;&quot;&gt;&quot;Qu&#39;avez-vous apprécié ?&quot;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#222222;font-family:&#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;font-size:14px;font-style:inherit;font-weight:inherit;line-height:1.7;&quot;&gt;&quot;Que faudrait-il pour que ce soit parfait ?&quot;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#222222;font-family:&#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;font-size:14px;font-style:inherit;font-weight:inherit;line-height:1.7;&quot;&gt;&quot;Que doit-on faire pour que ça DECHIRE ?&quot;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;J&#39;ai le sentiment que cela donne ce petit truc fun, qui incite d&#39;autant plus les gens à répondre quand le feedback est effectué par mail !&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;Et vous, comment utilisez-vous le jeu de l&#39;amélioration ?&lt;/div&gt;
+&lt;p&gt;[Encore merci Guillaume, promis la v2 de l&#39;article est pour bientôt !]&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Jun 2014 20:17:20 +0200</pubDate>
+        <link>http://agilead.fr/agile/seriousgames/2014/06/09/le-jeu-de-lamelioration-du-concret.html</link>
+        <guid isPermaLink="true">http://agilead.fr/agile/seriousgames/2014/06/09/le-jeu-de-lamelioration-du-concret.html</guid>
+        
+        <category>Agile</category>
+        
+        <category>feedback</category>
+        
+        <category>perfectiongame</category>
+        
+        
+        <category>agile</category>
+        
+        <category>seriousgames</category>
+        
+      </item>
+    
+      <item>
+        <title>&quot;pre-mortem&quot;, le contrepied du drame pour éviter la catastrophe !</title>
+        <description>&lt;p&gt;Les livres &quot;&lt;a title=&quot;gamestorming&quot; href=&quot;http://www.gogamestorm.com/&quot; target=&quot;_blank&quot;&gt;Gamestorming&lt;/a&gt;&quot; et &quot;&lt;a title=&quot;exemple formation innovation games&quot; href=&quot;http://www.agilbee.com/innovation_games.html&quot; target=&quot;_blank&quot;&gt;Innovation Game&lt;/a&gt;&quot; sont de vraies mines d&#39;or. Je n&#39;ai cesse d&#39;utiliser et de revendiquer les &quot;jeux&quot; qui y sont présentés. Le graal étant d&#39;enchainer ces jeux pour répondre à un besoin particulier comme lors d&#39;&lt;a title=&quot;exemple d&#39;articulation de serious games&quot; href=&quot;http://www.proxiad.com/talks/2013/01/28/serious-games-transformez-vos-reunions-pour-plus-defficacite/&quot; target=&quot;_blank&quot;&gt;un lancement d&#39;équipe&lt;/a&gt; par exemple. On utilise alors des jeux pour l&#39;ouverture, d&#39;autres pour l&#39;exploration, et des jeux pour converger vers quelques actions.&lt;/p&gt;
+&lt;p&gt;Ce qui m&#39;intéresse dans ce post, c&#39;est d&#39;aborder deux jeux qui s&#39;appuient sur une même particularité cognitive, pour desservir des but différents !&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Imaginer le futur, c&#39;est compliqué !&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;color:#000000;&quot;&gt;De nombreuses études en psychologie cognitive ont examiné la façon dont nous pensons à l&#39;avenir. [...] Il est plus facile de comprendre et de décrire un événement futur &lt;em&gt;rétrospectivement&lt;/em&gt; que d&#39;aborder un futur possible. (en anglais dans le &lt;a title=&quot;remember the futur&quot; href=&quot;http://www.innovationgames.com/remember-the-future/&quot; target=&quot;_blank&quot;&gt;texte&lt;/a&gt; ).&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Exercice 1 : Envisager le panorama de la mobilité dans 10 ans... Dites-moi à quoi ce dernier va-t-il ressembler ?&lt;/p&gt;
+&lt;p&gt;[... le temps d&#39;une réflexion ...]&lt;/p&gt;
+&lt;p&gt;Différents futurs sont imaginables, il nous est difficile de nous projeter. Imaginez cette question posée à un groupe, vous aurez autant de réponses que de participants.&lt;/p&gt;
+&lt;p&gt;Changement de contexte, avec l&#39;exercice 2 :  Nous sommes le 20 mai &lt;strong&gt;2024&lt;/strong&gt;, le journal télévisé annonce le succès de la société Appoïd, qui détient maintenant le monopole mondial des périphériques mobiles ! Comment y-sont-ils parvenus ?&lt;/p&gt;
+&lt;p&gt;[... le temps d&#39;une réflexion ...]&lt;/p&gt;
+&lt;p&gt;Les scénarios ne s&#39;enchaînent-t-ils pas dans votre tête ? Incroyable non ? Nous donnons le choix d&#39;un seul futur possible, sur lequel les différents arguments vont pouvoir se construire.&lt;/p&gt;
+&lt;p&gt;C&#39;est &lt;strong&gt;LE&lt;/strong&gt; truc. Cela permet d&#39;aligner les idées d&#39;un groupe sur un objectif commun, la productivité s&#39;en trouvera boostée !&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jouons !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Les ouvrages référencent deux  jeux qui exploitent cette &quot;faille&quot;.&lt;/p&gt;
+&lt;p&gt;Le premier peut-être vu comme un rétro-planning ludique :&quot;&lt;strong&gt;remember the futur&lt;/strong&gt;&quot; de &quot;Innovation games&quot;. On positionne le succès du projet, en prenant soin de décrire les critères de cette réussite. Ensuite, on remonte le temps pour identifier quelles ont été les actions et leur date de mise en oeuvre.&lt;/p&gt;
+&lt;p&gt;Le deuxième, vise à identifier les difficultés potentielles et d&#39;en prendre le contrepied : &quot;&lt;strong&gt;Pre Mortem&lt;/strong&gt;&quot; de &quot;Gamestorming&quot;. On positionne l&#39;échec du projet, et on cherche à se rappeler des événements et des causes qui nous ont amener à cette catastrophe ! Cela peut refroidir de prime abord en lancement de projet, mais cela remet bien les choses à plat ! Il ne faut pas oublier, qu&#39;au delà de l&#39;énergie positive que peut générer un tel moment, la route n&#39;est pas toujours un long fleuve tranquille !&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Les conseils&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La magie de l&#39;exercice se joue dans l&#39;introduction, il faut pousser les gens à faire le &quot;décalage mental&quot;, user des détails pour faciliter l&#39;appropriation de ce futur.&lt;/p&gt;
+&lt;p&gt;Ce futur peut être dans quelques semaines, quelques mois ou quelques années en fonction du problème traité.&lt;/p&gt;
+&lt;p&gt;Si vous êtes dans un contexte IT, sortez-en ! Identifier les points liés à l&#39;organisation, au changement, à la formation, à la transition, au démarrage...&lt;/p&gt;
+&lt;p&gt;Vous avez pratiqué cet exercice ? Parlez-en dans les commentaires !&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 May 2014 20:20:34 +0200</pubDate>
+        <link>http://agilead.fr/2014/05/29/pre-mortem-le-contrepied-du-drame-pour-eviter-la-catastrophe.html</link>
+        <guid isPermaLink="true">http://agilead.fr/2014/05/29/pre-mortem-le-contrepied-du-drame-pour-eviter-la-catastrophe.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Impact Mapping @NordAgile</title>
+        <description>&lt;p&gt;Le 15 mai dernier, nous avons co-animé avec &lt;a title=&quot;site sebastien saccard&quot; href=&quot;http://www.sebastiensacard.fr/&quot;&gt;Sébastien Sacard&lt;/a&gt;, une présentation interactive sur l&#39;impact mapping pour &lt;a title=&quot;Site Nord Agile&quot; href=&quot;http://www.nord-agile.org&quot;&gt;Nord-agile&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En attendant un article détaillé, voici la présentation, vos remarques sont les bienvenues :&lt;/p&gt;
+&lt;p&gt;[slideshare id=34951775&amp;amp;doc=impactmapping-140521081949-phpapp02]&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 May 2014 13:23:40 +0200</pubDate>
+        <link>http://agilead.fr/2014/05/21/impact-mapping-nordagile.html</link>
+        <guid isPermaLink="true">http://agilead.fr/2014/05/21/impact-mapping-nordagile.html</guid>
+        
+        <category>agile impactmapping talks atelier nord-agile</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lego4scrum, deux ans après...</title>
+        <description>&lt;p&gt;Je vous propose dans ce billet, de détailler le &lt;a title=&quot;Atelier Lego 4 Scrum&quot; href=&quot;http://www.lego4scrum.com/&quot; target=&quot;_blank&quot;&gt;Lego4scrum &lt;/a&gt;créé par &lt;a title=&quot;Créateur Lego4scrum&quot; href=&quot;www.krivitsky.com&quot; target=&quot;_blank&quot;&gt;Alexey Krivitsky&lt;/a&gt;. Il s&#39;agit d&#39;une simulation de 3 itérations d&#39;un projet pour une durée de 1h30 à 2h. Le développement logiciel est matérialisé par la construction avec des légos qui le rend extrêmement ludique ! Cela rend le jeu accessible à tous les publics (DSI, CP, Dev...).&lt;/p&gt;
+&lt;p&gt;L&#39;idée n&#39;est pas de décrire l&#39;atelier, les supports remplissent parfaitement ce rôle. Je vous propose un retour sur plus de 2 ans de pratique.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attention, ne lisez pas ce billet si vous n&#39;avez jamais fait l&#39;exercice ;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quand utiliser cet atelier ?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En découverte : l&#39;idée est de supprimer tous les termes agiles de l&#39;atelier, cela provoque le vécu, et vous pouvez y faire référence lors d&#39;une formation par exemple, cela crée le &quot;Tilt&quot;. Cet atelier permet aussi la prise de conscience !&lt;/li&gt;
+&lt;li&gt;En fin d&#39;apprentissage : inversement, vous pouvez laisser plus de marge de manœuvre aux participants, pour qu&#39;ils réappliquent les compétences acquises.&lt;/li&gt;
+&lt;li&gt;En feedback sur une équipe : en coaching, même si l&#39;Equipe est déjà coutumière de tous les artéfacts, cela permet de prendre du recule par rapport à leur pratique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&#39;atelier se déroule comme suit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Une phase de construction de la liste &quot;des choses à faire&quot;&lt;/li&gt;
+&lt;li&gt;Une phase d&#39;estimation&lt;/li&gt;
+&lt;li&gt;3 sprint de 6 minutes (planification, réalisation, revue), suivis d&#39;une revue des éléments réalisés.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;le matériel suivant sera nécessaire :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Post-it et petits post-it.&lt;/li&gt;
+&lt;li&gt;1 feuille de paperboard pour le backlog&lt;/li&gt;
+&lt;li&gt;1 feuille de paperboard pour l&#39;estimation en couloir&lt;/li&gt;
+&lt;li&gt;1 feuille de paperboard pour le reporting&lt;/li&gt;
+&lt;li&gt;Des feuilles de paperboard pour les participants et pour la &quot;prod&quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour la phase préparatoire, je m&#39;arme de post-it sur lesquels j&#39;adjoins un petit post-it. Vous comprendrez pour la suite. J&#39;y dessine 2 cases, une pour la valeur métier, l&#39;autre pour l&#39;effort.&lt;/p&gt;
+&lt;h2&gt;Le lancement&lt;/h2&gt;
+&lt;p&gt;Je fais en sorte de &quot;sortir du cadre&quot; habituel, pour cela, j&#39;utilise deux slides d&#39;introduction.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le premier présente un titre très &quot;pompeux&quot; du style &quot;Réflexion autour de nos méthodes et outils dans le cadre....&quot; Le genre de titre, qui, présenté à 13h30, digestion oblige, vous appelle au sommeil ;)&lt;/li&gt;
+&lt;li&gt;Le deuxième slide est un gros panneau STOP ! &quot;Nous allons prendre un peu de recul, avec un atelier ludique&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pas besoin d&#39;aborder le coté réflexion, cela vient naturellement avec le jeu.&lt;/p&gt;
+&lt;p&gt;J&#39;attaque le speech, et j&#39;insiste fortement sur :&lt;br /&gt;
+&quot;Un projet commun, une Equipe constituée de plusieurs groupes&quot;&lt;br /&gt;
+&quot;Je suis le Maire, je décide, posez moi les questions&quot;&lt;/p&gt;
+&lt;h2&gt;La phase préparatoire&lt;/h2&gt;
+&lt;p&gt;Je &lt;del&gt;retire&lt;/del&gt; j&#39;essaie de retirer tous termes agiles, ainsi, on évite les aprioris sur le sujet.&lt;/p&gt;
+&lt;p&gt;J&#39;explique ma vision du projet Vision globale, en mettant un petit point sur &lt;a title=&quot;Démarrez avec le pourquoi&quot; href=&quot;https://www.startwithwhy.com/default.aspx&quot; target=&quot;_blank&quot;&gt;l&#39;importance du pourquoi.&lt;/a&gt;.. Ainsi, chacun des participants peut-être force de proposition dans l&#39;objectif. On co-construit donc les éléments. C&#39;est un mini workshop d&#39;écriture de user story. Attention à ne pas trop laisser de temps sur cette phase, la gestion d&#39;un nombre important de propositions est un frein pour la suite de l&#39;atelier.&lt;/p&gt;
+&lt;p&gt;Pour la mise en commun, je fais une sorte de story mapping simplifier (des références &lt;a title=&quot;Story Mapping, premier post&quot; href=&quot;http://www.agileproductdesign.com/presentations/user_story_mapping/&quot; target=&quot;_blank&quot;&gt;ici&lt;/a&gt; et &lt;a title=&quot;Story mapping en Français&quot; href=&quot;http://www.qualitystreet.fr/2009/08/11/user-story-map-un-gros-plus-pour-votre-backlog/&quot; target=&quot;_blank&quot;&gt;là&lt;/a&gt;). Ce faisant, j&#39;introduis l&#39;utilité d&#39;une telle pratique sur un projet, pour un démarrage ou une reprise. Le but est d&#39;avoir une ville cohérente, avec des priorités claires. J&#39;explique l&#39;importance du juste détail pour permettre la visualisation globale et les ajustements.&lt;/p&gt;
+&lt;p&gt;Par exemple : Construire une ville en oubliant l&#39;infrastructure, créer le lotissement avant d&#39;y mettre les maisons...&lt;/p&gt;
+&lt;p&gt;L&#39;illustration de la co-construcion est sans équivoque : il y a toujours des items auxquels je n&#39;aurais pas pensé. On connaît l&#39;adage &quot;Il y a plus de choses dans la tête de 20 personnes que dans une seule&quot;, mais imaginez concrètement ce que cela peut donner sur vos projets.&lt;/p&gt;
+&lt;p&gt;J&#39;attribue des valeurs, de 1000 à 50 en fonction de l&#39;importance.&lt;/p&gt;
+&lt;p&gt;Je fais faire la somme des valeurs d&#39;estimation par les participants, je note cela sur le paperboard du reporting. &lt;strong&gt;Toutes les tâches qui peuvent être déléguées sont bonnes à prendre, cela fluidifie votre intervention.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;La phase d&#39;estimation&lt;/h2&gt;
+&lt;p&gt;J&#39;introduis la notion d&#39;estimation relative, en expliquant les avantages. Je fais une démonstration avec un jeu de planning poker, et explique ensuite comment optimiser le process avec les &quot;couloirs&quot; (bien présenté dans le support). Retrouvez sur ce billet &lt;a title=&quot;pratiques d&#39;estimation&quot; href=&quot;http://johannesbrodwall.com/2009/11/05/the-malmo-experiment-estimation-techniques-shootout/&quot; target=&quot;_blank&quot;&gt;des pratiques d&#39;estimation&lt;/a&gt; pour en reprendre le sens.&lt;/p&gt;
+&lt;p&gt;Je prends une ou deux personnes de l&#39;assemblée pour faire l&#39;estimation relative de tous les éléments. Pour faire cela, nous détachons les petits post-it des grands, pour garder le story mapping priorisé en place.&lt;/p&gt;
+&lt;p&gt;A la fin, pour les éléments que les participants ont du mal à estimer, je donne de brèves indications &quot;deux maisons de large...&quot; et clos le débat en positionnant les éléments.&lt;br /&gt;
+Cela porte parfois à Caricature et c&#39;est l&#39;ambiguïté entre l&#39;animateur du jeu et le rôle de product owner...&lt;br /&gt;
+Mais sur le ton de l&#39;humour cela passe généralement bien.&lt;/p&gt;
+&lt;p&gt;Une fois de plus, je fais appel aux participants pour l&#39;addition des points d&#39;effort, je note cela sur le board de reporting.&lt;/p&gt;
+&lt;p&gt;Dans la plupart des cas, presque aucune question n&#39;est posée sur le comment développer les choses. En d&#39;autres termes, les gens se lancent dans l&#39;estimation sans avoir les infos ;)&lt;/p&gt;
+&lt;p&gt;C&#39;est à ce moment, que j&#39;aime prononcé la phrase suivante : &lt;strong&gt;&quot;Il est temps de passer aux choses sérieuses&quot; et je sors les boîtes de Légos !&lt;/strong&gt; A ce moment du jeu les participants sont engagés, même s&#39;ils sont surpris par les Légos, vous évitez les réactions épidermiques.&lt;/p&gt;
+&lt;h2&gt;Les sprints&lt;/h2&gt;
+&lt;p&gt;Pour la planification, il faut dédramatiser, les pousser à se jeter à l&#39;eau. Pour faciliter je demande un responsable d&#39;équipe et le pousse à me donner leur engagement... &quot;Allez, 30 secondes pour me donner un chiffre&quot;. [ça vous rappelle quelque chose ? des soirées de propositions commerciale ou il faut jeter les dés ?]&lt;/p&gt;
+&lt;p&gt;Je choisis les éléments à réaliser et demande si les équipes veulent bien s&#39;engager.&lt;/p&gt;
+&lt;p&gt;On théâtralise un peu le choix cornélien des priorités par le product owner et la réalité en terme de ROI/Coûts/Risque/apprentissage.&lt;/p&gt;
+&lt;p&gt;Au top ils se lancent tous comme des fous, retour à l&#39;enfance, l&#39;ambiance est à la rigolade et les participants apprivoisent les Légos.&lt;br /&gt;
+Je pars sur 6 minutes au lieu de 7, ça mets plus la pression, et je la mets continuellement &quot;plus que x minutes&quot;.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;10, 9, 8, 7, 6, 5, 4, 3, 2, 1.... Mais où est ma ville !!!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Il est temps d&#39;effectuer la revue, et dans 9 cas sur 10 la prod a été oubliée ! L&#39;espace de production est indiqué lors de la distribution des espaces et des Légos.&lt;/p&gt;
+&lt;p&gt;Je fais la revue des éléments produits. Je prends un air caricatural en en forçant &lt;del&gt;un peu&lt;/del&gt; le trait pour ajouter du fun à la scène.&lt;/p&gt;
+&lt;p&gt;C&#39;est généralement la déconfiture !&lt;br /&gt;
+Il ont tous essayé quelque chose qui n&#39;est absolument pas ce que j&#39;avais en tête ( et même si c&#39;était le cas je changerai ce que j&#39;ai en tête :)&lt;/p&gt;
+&lt;p&gt;Un réflexe courant :&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Participant : Mais tu ne nous a pas dit ce que tu voulais !&lt;br /&gt;
+Animateur : Mais tu ne m&#39;as pas posé la question !&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Les éléments acceptés sont généralement proches de 0.&lt;br /&gt;
+Je propose 2 minutes de rétrospective LIBRE, en leur demandant de choisir une action sur laquelle s&#39;animer.&lt;/p&gt;
+&lt;h3&gt;Deuxième sprint&lt;/h3&gt;
+&lt;p&gt;Dans la plupart des cas, le PO est pris d&#39;assaut ! Préparez-vous !&lt;br /&gt;
+Les choses s&#39;arrangent, certains patterns apparaissent...&lt;/p&gt;
+&lt;p&gt;A l&#39;inverse du premier sprint, on passe en déploiement continu naturellement et cela dans plus de 80% des cas... Mais sans forcément l&#39;aval du PO !&lt;/p&gt;
+&lt;p&gt;La revue est plus clémente, il reste des éléments à revoir.&lt;br /&gt;
+La confiance commence à se ressentir, on voit par exemple des éléments faits qui n&#39;étaient pas demandés.&lt;br /&gt;
+C&#39;est à dire qui faisait parti des éléments du backlog, mais qui n&#39;était pas dans les priorités du PO.&lt;br /&gt;
+Le score décolle, je reporte les éléments effectués (point d&#39;effort en burndown et valeur en burnup, sur un même schéma avec deux couleurs)&lt;/p&gt;
+&lt;p&gt;Pour la rétrospective, je prends les choses en main (j&#39;ai observé que les gens n&#39;ont pas l&#39;habitude de cet exercice et on donc du mal à sortir quelque chose, un ouvrage à creuser : getting feedback ?) :&lt;/p&gt;
+&lt;p&gt;Voici des exemples de questions :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avez-vous respecté les actions sur lesquelles vous souhaitiez vous animer ?&lt;/li&gt;
+&lt;li&gt;Où avez-vous perdu du temps ?&lt;/li&gt;
+&lt;li&gt;Quelles étaient les difficultés ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voici quelques exemples d&#39;actions concrètes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organiser les Légos par couleur&lt;/li&gt;
+&lt;li&gt;Validation au fils de l&#39;eau&lt;/li&gt;
+&lt;li&gt;Les gens se mettent en commun pour mutualiser l&#39;ensemble des Légos&lt;/li&gt;
+&lt;li&gt;Le travail &quot;a faire ensuite&quot; est ajouté par le PO (pour éviter que certaines personnes ne tournent en rond).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Troisième sprint&lt;/h3&gt;
+&lt;p&gt;Les équipes trouvent leur vitesse de croisière, les actions de rétrospective fonctionnent,&lt;br /&gt;
+le score explose au grand bonheur de chacun mais surtout à leur grande surprise.&lt;/p&gt;
+&lt;p&gt;Je reporte les éléments sur le board de reporting, et explique comment la capacité de&lt;br /&gt;
+réalisation peut nous servir pour effectuer des projections (date de fin,&lt;br /&gt;
+importance de travailler sur ce qui a de l&#39;importance, négociation des points de fonction...&lt;/p&gt;
+&lt;h2&gt;Le débrief&lt;/h2&gt;
+&lt;p&gt;C&#39;est la partie à ne pas négliger, peaufiner vos questions au fur et à mesure que vous pratiquez.&lt;/p&gt;
+&lt;p&gt;Voici quelques unes des questions marquantes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Que ce serait-il passé si nous avions utilisé 18 minutes au lieu de 3x6 minutes ? [Marquez un blanc et observez la tête de chacun des participants]&lt;/li&gt;
+&lt;li&gt;Quels sont les comportements qu&#39;ils ont observés ?&lt;/li&gt;
+&lt;li&gt;Que pensent-ils de le rétrospective ?&lt;/li&gt;
+&lt;li&gt;Comment établir les critères d&#39;acceptance avant de développer ?&lt;/li&gt;
+&lt;li&gt;Qu&#39;apporte le management visuel ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;L&#39;anecdote&lt;/h2&gt;
+&lt;p&gt;Le contexte : une horde de chef de projet manageant principalement des centres de service.&lt;br /&gt;
+Les échos/réflexions étaient assez négatifs, les phrases comme &quot;il comprennent jamais rien&quot;, &quot;ils sont toujours à coté de la plaque&quot; j&#39;en passe et des meilleures (en d&#39;autre termes, qui ne passent pas sur un blog ;).&lt;/p&gt;
+&lt;p&gt;L&#39;efficacité de l&#39;atelier faisant rage, nombreux sont ceux à tombé dans le panneau !&lt;/p&gt;
+&lt;p&gt;A ce moment précis, je vois le visage d&#39;un des chefs de projet se transformer. Il y a des moments où, l&#39;on reconnais le &quot;tilt&quot; de la compréhension par l&#39;illumination d&#39;un visage. A ce moment précis, son visage est devenu sombre, ce qui m&#39;a scotché...&lt;/p&gt;
+&lt;p&gt;Je l&#39;ai vu comprendre que le problème n&#39;était pas les équipe de sous-traitance mais bien leur mode de fonctionnement !&lt;/p&gt;
+&lt;p&gt;Un moment rare, qui me restera gravé !&lt;/p&gt;
+&lt;p&gt;N&#39;hésitez pas à communiquer vos retours sur info@lego4scrum.com et dans les commentaires de ce billet !&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Apr 2014 22:16:59 +0200</pubDate>
+        <link>http://agilead.fr/agile/2014/04/29/lego4scrum-deux-ans-apres.html</link>
+        <guid isPermaLink="true">http://agilead.fr/agile/2014/04/29/lego4scrum-deux-ans-apres.html</guid>
+        
+        <category>funAtWork</category>
+        
+        <category>serious game</category>
+        
+        
+        <category>agile</category>
+        
+      </item>
+    
+      <item>
+        <title>Une rétro sur les chapeaux de roue !</title>
+        <description>&lt;p&gt;Du simple &quot;à ne plus faire, à garder, à améliorer&quot;, jusqu&#39;aux serious games, il existe de nombreux formats pour animer des rétrospectives.&lt;/p&gt;
+&lt;p&gt;Mais à chaque fois, j&#39;ai constaté des débuts timides : les participants rencontrent des difficultés à générer/identifier les points de &quot;contention&quot;.&lt;/p&gt;
+&lt;p&gt;Pour palier ce syndrome de la feuille blanche, j&#39;ai &quot;testé pour vous&quot; le lancement d&#39;&lt;strong&gt;une rétro avec un brainstorm&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Etape 1 :&lt;/strong&gt;&lt;/em&gt; indiquez à chacun des participants de nommer un mot quant à l&#39;organisation du projet, et de tous les artefacts qui le composent.&lt;/p&gt;
+&lt;p&gt;Dans l&#39;exemple :&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Sprint&lt;br /&gt;
+Estimation&lt;br /&gt;
+Planning&lt;br /&gt;
+Test&lt;br /&gt;
+Daily&lt;br /&gt;
+Périmètre&lt;br /&gt;
+Démo&lt;br /&gt;
+Définition de terminé&lt;br /&gt;
+Dashboard&lt;br /&gt;
+Spécification&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Inscrivez ces mots, de manière à ce qu&#39;ils soient visibles de tous.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Etape 2 :&lt;/strong&gt;&lt;/em&gt; Lancez la phase de réflexion individuelle  (option sur post-it avec 2 couleurs : une pour le positif et une pour le négatif, c&#39;est encore mieux !).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Etape 3 :&lt;/strong&gt;&lt;/em&gt; Passez à la mise en commun. Dans le déroulement, nous avons opté pour Xmind, avec un écran partagé, afin d&#39;éviter la partie fastidieuse du compte rendu ;)&lt;/p&gt;
+&lt;p&gt;Un moyen très simple et très rapide pour dynamiser vos rétros !&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Apr 2014 21:19:46 +0200</pubDate>
+        <link>http://agilead.fr/agile/2014/04/29/une-retro-sur-les-chapeaux-de-roue.html</link>
+        <guid isPermaLink="true">http://agilead.fr/agile/2014/04/29/une-retro-sur-les-chapeaux-de-roue.html</guid>
+        
+        <category>Agile</category>
+        
+        <category>Retrospective</category>
+        
+        
+        <category>agile</category>
+        
+      </item>
+    
+  </channel>
+</rss>
