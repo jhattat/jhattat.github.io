@@ -496,6 +496,12 @@ header {
   margin: 0 10px 0 0;
   color: #dddddd;
 }
+
+.post {
+  padding: 100px 0 0 0;
+  background-image: url("../images/parallax-3.png");
+}
+
 .box-exc {
   clear: both;
   padding: 15px 0 0;
