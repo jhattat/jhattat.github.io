@@ -59,7 +59,7 @@ $(document).ready(function(){
         } else {
             e++;
         }
-    }, 2000);
+    }, 3000);
 
     // set preview screen sizes
 
